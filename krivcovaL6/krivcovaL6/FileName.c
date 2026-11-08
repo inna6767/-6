@@ -55,11 +55,11 @@ int z1_year(int years) {
 }
 
 double z2_f(double x) {
-    if (x <= 7) {
-        return 3 * x - 9;
+    if (x >= -3.5) {
+        return 4 * x * x + 2 * x - 19;
     }
     else {
-        return 1.0 / (x * x - 4);
+        return -(2 * x) / (-4 * x + 1);
     }
 }
 
